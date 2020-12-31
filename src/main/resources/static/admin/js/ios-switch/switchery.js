@@ -1407,9 +1407,9 @@ require.alias("ftlabs-fastclick/lib/fastclick.js", "switchery/deps/fastclick/ind
 require.alias("ftlabs-fastclick/lib/fastclick.js", "fastclick/index.js");
 require.alias("ftlabs-fastclick/lib/fastclick.js", "ftlabs-fastclick/index.js");
 require.alias("switchery/switchery.js", "switchery/index.js");if (typeof exports == "object") {
-  module.exports = require("switchery");
+  module.exports = require("static/admin/js/ios-switch/switchery");
 } else if (typeof define == "function" && define.amd) {
-  define(function(){ return require("switchery"); });
+  define(function(){ return require("static/admin/js/ios-switch/switchery"); });
 } else {
-  this["Switchery"] = require("switchery");
+  this["Switchery"] = require("static/admin/js/ios-switch/switchery");
 }})();
